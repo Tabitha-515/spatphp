@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navi{
+    display: flex;
+    /* position: fixed; */
+    justify-content: space-between;
+    padding:20px;
+    background-color: #ddd;
+}
+.end{
+    margin-top:20px;
+    margin-right:100px;
+}
+
+.sidenav {
+    height:100vh;
+    width:400px;
+    /* position:fixed; */
+    z-index:1;
+    left:0;
+    background-color: white;
+    overflow-x: hidden;
+    padding:20px;
+    
+    /* padding-top: 150px; */
+    
+}
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color:gray;
+    display: block;
+}
+
+.select-container{
+    padding:50px;
+    /* position: fixed; */
+    display: flex;
+}
+.select-container h2{
+    padding-right: 30px;;
+    color: gray;
+    
+}
+
+.sidenav{
+    padding:30px;
+}
+.main{
+    /* margin-left: 500px; */
+    top: auto;
+    display: flex;
+    margin-left: 10px;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
+.member-detailss{
+    font-size: 14px;;
+    background-color: pink;
+}
+
+.member-detailss h2{
+    margin-top: 20px;;
+}
+.member-container{
+    margin:10px;
+}
+.member-img{
+    height:300px;
+    width:300px;
+}
+.bodyscrub-container{
+    /* margin-left: 500px; */
+    display: flex;
+    top:0;
+    justify-content: center;
+
+}
+
+.bodyscrub-container img{
+    width:400px;
+    height:400px;
+}
+.creambath{
+    /* margin-left: 500px; */
+    display: flex;
+    top:0;
+    margin-top: 50px;
+    justify-content: center;
+}
+.creambath img{
+    height: 400px;
+    width:400px;
+}
+.hairmask img{
+    height:400px;
+    width:400px;
+}
+
+.hairmask{
+    /* margin-left: 500px; */
+    justify-content: center;
+    display: flex;
+    top:0;
+    margin-top: 50px;
+}
+.cost button{
+    width:80px;
+    padding:20px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
